@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/benedict/Documents/GitProjects/benedictljj/.git'
+let g:netrw_dirhist_2='/Users/benedict/.vim'
+let g:netrw_dirhist_3='/Users/benedict/Documents/CS3217 Final Project/arc'
+let g:netrw_dirhist_4='/Users/benedict/Desktop/mpi_test/Tutorial Week 12'
