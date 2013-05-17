@@ -8,6 +8,9 @@ set laststatus=2
 set linebreak
 set wrap
 
+" allow backspacing over everything in insert mode
+set backspace=indent,eol,start
+
 " Turn on syntax highlighting
 syntax on
 
@@ -45,6 +48,17 @@ set number
 
 " Scrolling
 set scrolloff=8 
+
+" === Mappings ===
+
+" Tabs
+map tn :tabn<CR>
+map tp :tabp<CR>
+map te :tabe<Space>
+map tm :tabm<Space>
+
+" Cut
+map yd <S-y><S-d>
 
 " === Others ===
 set ruler
